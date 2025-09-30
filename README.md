@@ -40,4 +40,4 @@ conda activate georisk_env
 # 2. Install all dependencies (Use conda-forge for robust GIS libraries)
 conda install -c conda-forge geopandas pyogrio folium pandas
 
-Website: https://e-alkl.github.io/BayArea_EnvRisk_GIS_Analysi/bay_area_risk_map.html
+Website: https://e-alkl.github.io/BayArea_EnvRisk_GIS_Analysis/bay_area_risk_map.html
