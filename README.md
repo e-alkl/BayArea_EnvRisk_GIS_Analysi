@@ -4,13 +4,13 @@ A Python-based geospatial analysis of pollution source proximity to water bodies
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 This project performs a spatial proximity analysis between **polluting facilities** in the San Francisco Bay Area and **water bodies** sourced from the National Hydrography Dataset (NHD), using **GeoPandas** and **Python**.
 
 The primary objective is to calculate the minimum distance from each pollution source to the nearest surface water feature and categorize the facility based on this proximity into distinct **environmental risk levels**.
 
-### 📊 Project Deliverables
+### Project Deliverables
 
 Upon successful execution, the project generates the following two core output files:
 
@@ -39,3 +39,5 @@ conda activate georisk_env
 
 # 2. Install all dependencies (Use conda-forge for robust GIS libraries)
 conda install -c conda-forge geopandas pyogrio folium pandas
+
+Website: https://e-alkl.github.io/BayArea_EnvRisk_GIS_Analysi/bay_area_risk_map.html
